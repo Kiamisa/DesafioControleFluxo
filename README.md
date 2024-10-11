@@ -32,26 +32,22 @@ Configuração de variáveis de ambiente para executar o Java via terminal.
 
 Clone este repositório em sua máquina local:
 
-```bash
-
+```
 git clone https://github.com/SeuUsuario/DesafioControleFluxo.git
 ```
 Compile o projeto:
 
-```bash
-
+```
 javac Contador.java
 ```
 Execute o programa, passando os dois números inteiros como parâmetros:
 
-```bash
-
+```
 java Contador 3 8
 ```
 Exemplo de saída:
 
-```bash
-
+```
 3
 4
 5
@@ -61,15 +57,13 @@ Exemplo de saída:
 ```
 Se o primeiro número for maior que o segundo, será exibida uma mensagem de erro devido à exceção:
 
-```bash
-
+```
 java Contador 8 3
 ```
 Saída esperada:
 
-```bash
-
-    ParametrosInvalidosException: O segundo número deve ser maior que o primeiro.
+```
+ParametrosInvalidosException: O segundo número deve ser maior que o primeiro.
 ```
 🧪 Testes
 
